@@ -113,6 +113,9 @@ vim.o.mouse = 'a'
 -- Enable break indent
 vim.o.breakindent = true
 
+-- Enable yank to use system clipboard
+vim.opt.clipboard:append("unnamedplus")
+
 -- Save undo history
 vim.o.undofile = true
 
