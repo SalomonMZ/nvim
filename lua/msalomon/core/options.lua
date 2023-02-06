@@ -14,6 +14,11 @@ vim.o.mouse = 'a'
 -- Enable break indent
 vim.o.breakindent = true
 
+-- ident space
+vim.o.sw = 2
+vim.o.ts = 2
+vim.o.sts = 2
+
 -- Enable yank to use system clipboard
 vim.opt.clipboard:append("unnamedplus")
 
