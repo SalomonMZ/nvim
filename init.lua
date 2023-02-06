@@ -49,5 +49,8 @@ require('msalomon.plugins.nvim-autopairs')
 
 -- Autotag setup
 require('msalomon.plugins.nvim-ts-autotag')
+
+-- Vim Surround
+require('msalomon.plugins.nvim-surround')
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

@@ -56,6 +56,11 @@ packer.startup(function(use)
     wants = 'nvim-treesitter',
   }
 
+  use {
+    'kylechui/nvim-surround',
+    tag = '*',
+  }
+
   use 'windwp/nvim-ts-autotag' -- Auto tag (HTML, jsx, etc)
 
   use { -- Highlight, edit, and navigate code
