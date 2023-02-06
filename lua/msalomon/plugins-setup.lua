@@ -56,6 +56,8 @@ packer.startup(function(use)
     wants = 'nvim-treesitter',
   }
 
+  use 'windwp/nvim-ts-autotag' -- Auto tag (HTML, jsx, etc)
+
   use { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     run = function()

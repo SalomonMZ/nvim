@@ -46,5 +46,8 @@ require('msalomon.plugins.lsp')
 
 -- Autopairs setup
 require('msalomon.plugins.nvim-autopairs')
+
+-- Autotag setup
+require('msalomon.plugins.nvim-ts-autotag')
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
