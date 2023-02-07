@@ -92,9 +92,13 @@ mason_lspconfig.setup_handlers {
 -- Turn on lsp status information
 require('fidget').setup()
 
+
 -- nvim-cmp setup
 local cmp = require 'cmp'
 local luasnip = require 'luasnip'
+
+-- Load friendly-snippets
+require('luasnip/loaders/from_vscode').lazy_load()
 
 cmp.setup ({
   snippet = {

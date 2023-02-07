@@ -49,3 +49,6 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
 
 -- Nvim-tree keymaps
 vim.keymap.set('n', '<leader>b', ':NvimTreeToggle<CR>', {desc = 'Toggle the file explorer'} )
+
+-- vim-maximizer
+vim.keymap.set('n','<leader>sm', ':MaximizerToggle<CR>', {desc = 'Toggle window'})

@@ -51,6 +51,8 @@ packer.startup(function(use)
     requires = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' },
   }
 
+  use 'rafamadriz/friendly-snippets' -- Snippets
+
   use { -- Auto pairs
     'windwp/nvim-autopairs',
     wants = 'nvim-treesitter',
@@ -97,6 +99,8 @@ packer.startup(function(use)
 
   -- File explorer Icons
   use 'kyazdani42/nvim-web-devicons'
+
+  use 'szw/vim-maximizer' -- maximizes and restores current window
 
 
   if packer_bootstrap then
